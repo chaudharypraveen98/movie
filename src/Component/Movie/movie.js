@@ -1,15 +1,16 @@
 import React,{Component} from "react";
-import PropTypes from 'prop-types'
+import MovieList from "./MovieList";
+import MovieServices from "../../Services/MovieServices";
 
 export default class Movies extends Component{
     constructor(){
         super();
         this.state={
-            movies=[]
+            movies:[]
         }
     }
     componentDidMount() {
-        this.setState(()=>({movies:MovieService.getMovies()}));
+        this.setState(()=>({movies:MovieServices.getMovies()}));
     }
 
     render() {

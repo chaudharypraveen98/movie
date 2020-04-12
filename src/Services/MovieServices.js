@@ -1,4 +1,6 @@
 import movies from "./Movies"
  export default class MovieServices {
-     static getMovies()
+     static getMovies(){
+         return movies ? movies :[];
+     }
  }
