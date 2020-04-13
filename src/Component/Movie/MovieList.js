@@ -6,7 +6,7 @@ const getMovies=(movies)=>{
     return (
         <div className="card-deck">
             {
-                movies.map(movie=><MovieCard key={movie.id} movie={movie}/>)
+                movies.map(movie=><MovieCard key={movie.id} movie={movie} />)
             }
         </div>
     );
