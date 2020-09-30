@@ -43,5 +43,15 @@
     "year": 2014,
     "imageUrl": "../images/Resident_Evil_Vendetta.jpg",
     "rating": 4.2
+  },
+  {
+    "id": 600,
+    "title": "Babysitter",
+    "subtitle": "The Killer Queen",
+    "description": "The Babysitter: Killer Queen is a 2020 American comedy horror film, directed and produced by McG, from a screenplay by McG, Dan Lagana, Brad Morris and Jimmy Warden.",
+    "year": 2020,
+    "imageUrl": "../images/Resident_Evil_Vendetta.jpg",
+    "rating": 4.8
   }
+  
 ]
